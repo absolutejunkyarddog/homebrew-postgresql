@@ -11,6 +11,9 @@ brew services start postgresql@17
 
 # start postgresql from the cli
 /opt/homebrew/opt/postgresql@<VERSION>/bin/pg_start -D /opt/homebrew/var/postgresql@<VERSION>
+
+# first use
+/opt/homebrew/opt/postgresql@<VERSION>/binpsql -d postgres
 ```
 
 ## Supported Versions
