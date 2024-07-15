@@ -10,7 +10,7 @@ brew install absolutejunkyarddog/postgresql/postgresql@<VERSION>
 brew services start postgresql@17
 
 # start postgresql from the cli
-/opt/homebrew/opt/postgresql@17/bin/pg_start -D /opt/homebrew/var/postgresql@<VERSION>
+/opt/homebrew/opt/postgresql@<VERSION>/bin/pg_start -D /opt/homebrew/var/postgresql@<VERSION>
 ```
 
 ## Supported Versions
